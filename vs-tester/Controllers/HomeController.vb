@@ -2,7 +2,7 @@
     Inherits System.Web.Mvc.Controller
 
     Function Index() As ActionResult
-        ViewData("Message") = "Modify this template to jump-start your ASP.NET MVC application."
+        ViewData("Message") = "modified controller."
 
         Return View()
     End Function
