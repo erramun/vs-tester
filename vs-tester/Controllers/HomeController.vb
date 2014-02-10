@@ -2,7 +2,7 @@
     Inherits System.Web.Mvc.Controller
 
     Function Index() As ActionResult
-        ViewData("Message") = "New rockstar feature."
+        ViewData("Message") = "New feature in newFeature branch."
 
         Return View()
     End Function
