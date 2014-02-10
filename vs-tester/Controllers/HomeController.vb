@@ -8,7 +8,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "master branch"
+        ViewData("Message") = "master change"
 
         Return View()
     End Function
