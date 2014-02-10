@@ -8,7 +8,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "Hotfix."
+        ViewData("Message") = "Hotfix plus."
 
         Return View()
     End Function
