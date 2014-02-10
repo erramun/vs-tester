@@ -8,7 +8,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "new feature merge point."
+        ViewData("Message") = "master branch"
 
         Return View()
     End Function
