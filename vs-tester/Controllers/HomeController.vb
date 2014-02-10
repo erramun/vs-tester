@@ -8,7 +8,7 @@
     End Function
 
     Function About() As ActionResult
-        ViewData("Message") = "new feature one."
+        ViewData("Message") = "new feature two."
 
         Return View()
     End Function
